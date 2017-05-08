@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function foo(param){
+                alert('nothing.' + param);
+            }
+            
+            var ø = Object.create(null);
+            foo.apply(ø, ['null']);
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
